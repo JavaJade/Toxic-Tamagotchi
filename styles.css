@@ -1,0 +1,40 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    font: arial;
+}
+.panda {
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-width: 10px;
+    padding: 10%;
+    background-color: burlywood;
+    background-image: url('https://piskel-imgstore-b.appspot.com/img/dd85e7fa-011c-11f0-ad92-bb36fd6d7da7.gif');
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 1s;
+}
+.panda:hover {
+   background-image: url('https://piskel-imgstore-b.appspot.com/img/f6d16d7d-0119-11f0-b581-bb36fd6d7da7.gif');
+}
+@keyframes spinyBoi {
+    from {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-45deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+audio::-webkit-media-controls-panel {
+    color: blue;
+}
